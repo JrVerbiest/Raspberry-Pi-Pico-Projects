@@ -2,4 +2,4 @@
 
 ## Projects
 
-- blink (Hello World) <-- check that everything is up and running
+- blink <br>Project to check everything is installed correctly.
