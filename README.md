@@ -2,4 +2,4 @@
 
 ## Projects
 
-- blink
+- blink (Hello World) <-- check that everything is up and running
