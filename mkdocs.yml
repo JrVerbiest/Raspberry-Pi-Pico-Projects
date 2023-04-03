@@ -28,6 +28,7 @@ edit_uri: ""
 
 nav:
   - Home: 'index.md'
+  - Notes: 'notes.md'
 
 extra:
   social:
