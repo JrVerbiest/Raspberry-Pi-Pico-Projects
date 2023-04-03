@@ -1,0 +1,37 @@
+# Machine Learning at the Extreme Edge
+site_name: RPiRP240
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    primary: black
+  font:
+    text:Ubuntu Mono
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+
+plugins:
+    - search
+
+edit_uri: ""
+
+nav:
+  - Home: 'index.md'
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://be.linkedin.com/in/joeriverbiest
+
+repo_url: https://github.com/JrVerbiest/jrverbiest.github.io
