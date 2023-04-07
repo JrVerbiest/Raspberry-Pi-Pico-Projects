@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/CMakeFiles/ELF2UF2Build
+/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/CMakeFiles/ELF2UF2Build.rule
+/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/CMakeFiles/ELF2UF2Build-complete.rule
+/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
