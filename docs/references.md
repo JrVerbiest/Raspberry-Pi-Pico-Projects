@@ -1,17 +1,4 @@
-# Notes
-
-To print something on the Terminal:
-```shell
-sudo screen /dev/ttyACM0 115200
-```
-to exit, type: `Ctrl-a` and `Ctrl-d` 
-
-Diagnostic messages:
-```shell
-sudo dmesg
-```
-
-## References
+# References
 
 - [ Raspberry Pi SDK documentation](https://cec-code-lab.aps.edu/robotics/resources/pico-c-api/weblinks_page.html)
 

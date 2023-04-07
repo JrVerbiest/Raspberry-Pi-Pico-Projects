@@ -28,7 +28,8 @@ edit_uri: ""
 
 nav:
   - Home: 'index.md'
-  - Notes: 'notes.md'
+  - Commands: 'commands.md'
+  - References: 'references.md'
 
 extra:
   social:
