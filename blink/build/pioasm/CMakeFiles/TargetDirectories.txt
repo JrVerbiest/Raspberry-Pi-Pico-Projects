@@ -1,3 +1,0 @@
-/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/pioasm/CMakeFiles/pioasm.dir
-/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/pioasm/CMakeFiles/edit_cache.dir
-/home/jrv/Documents/GitHub/Raspberry-Pi-Pico-Projects/blink/build/pioasm/CMakeFiles/rebuild_cache.dir
