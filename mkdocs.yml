@@ -28,8 +28,8 @@ edit_uri: ""
 
 nav:
   - Home: 'index.md'
-  - Commands: 'commands.md'
   - References: 'references.md'
+  - Linux Commands: 'commands.md'
 
 extra:
   social:
