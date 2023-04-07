@@ -20,4 +20,9 @@
 
 ## Embedded Machine Learning
 - [Machine Learning Inference on Raspberry Pi Pico 2040 via Edge Impulse](https://www.youtube.com/watch?v=LmSrY_pZho0)<br>
-- [TinyML - Motion Recognition Using Raspberry Pi Pico](https://www.hackster.io/mjrobot/tinyml-motion-recognition-using-raspberry-pi-pico-6b6071)
+- [TinyML - Motion Recognition Using Raspberry Pi Pico](https://www.hackster.io/mjrobot/tinyml-motion-recognition-using-raspberry-pi-pico-6b6071)<br>
+- [TinyML Implementation using Raspberry Pi Pico: Geometry Gesture Detection (Part-I)](https://medium.com/@subirmaity/tinyml-implementation-using-raspberry-pi-pico-geometry-gesture-detection-part-i-3f0717677561)<br>
+- [TinyML Implementation using Raspberry Pi Pico: Geometry Gesture Detection (Part-II)](https://medium.com/@subirmaity/tinyml-implementation-using-raspberry-pi-pico-geometry-gesture-detection-part-ii-d3d83a5d8cdb)
+
+## GitHub
+- [Pico-Motion-Recognition](https://github.com/Mjrovai/Pico-Motion-Recognition)
