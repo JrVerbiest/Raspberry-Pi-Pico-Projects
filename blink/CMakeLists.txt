@@ -1,31 +1,30 @@
+# Set minimum required version of CMake
 cmake_minimum_required(VERSION 3.12)
 
-include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
+# Include build functions from Pico SDK
+include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
+# Set name of project (as PROJECT_NAME) and C/C   standards
 project(blink C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
-if (PICO_SDK_VERSION_STRING VERSION_LESS "1.3.0")
-    message(FATAL_ERROR "Raspberry Pi Pico SDK version 1.3.0 (or later) required. Your version is ${PICO_SDK_VERSION_STRING}")
-endif()
-
+# Creates a pico-sdk subdirectory in our project for the libraries
 pico_sdk_init()
 
-if (TARGET tinyusb_device)
-        add_executable(blink
-                blink.c
-                )
+# Tell CMake where to find the executable source file
+add_executable(${PROJECT_NAME} 
+    blink.c
+)
 
-        target_link_libraries(blink pico_stdlib)
+# Create map/bin/hex/uf2 files
+pico_add_extra_outputs(${PROJECT_NAME})
 
-        # enable usb output, disable uart output
-        pico_enable_stdio_usb(blink 1)
-        pico_enable_stdio_uart(blink 0)
+# Link to pico_stdlib (gpio, time, etc. functions)
+target_link_libraries(${PROJECT_NAME} 
+    pico_stdlib
+)
 
-        # create map/bin/hex/uf2 file etc.
-        pico_add_extra_outputs(blink)
-
-elseif(PICO_ON_DEVICE)
-        message(WARNING "not building hello_usb because TinyUSB submodule is not initialized in the SDK")
-endif()
+# Enable usb output, disable uart output
+pico_enable_stdio_usb(${PROJECT_NAME} 1)
+pico_enable_stdio_uart(${PROJECT_NAME} 0)
